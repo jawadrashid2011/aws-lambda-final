@@ -1,0 +1,17 @@
+{
+  "name": "lambda-node",
+  "version": "1.0.0",
+  "description": "",
+  "lambda1": "getSessions.mjs",
+  "lambda2": "terminateSessions.mjs",
+  "main": "getSessions.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@keycloak/keycloak-admin-client": "25.0.2"
+  }
+}
